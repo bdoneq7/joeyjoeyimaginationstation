@@ -3,6 +3,7 @@ import { FaSpider } from "react-icons/fa6";
 import {FaBars, FaTimes} from 'react-icons/fa';
 import {Link} from 'react-router-dom';
 import './NavbarStyles.css';
+import Logo from "../../assets/joeycirclemedium.png";
 
 const Navbar = () => {
     const [nav,setNav] =useState(false);
@@ -13,7 +14,7 @@ const Navbar = () => {
             <div className='container'>
                 <div className='logo'>
                 
-                <FaSpider className='icon' alt="8 Legged Freak" title="8 Legged Freak" />
+                <img src={Logo} style={{ width: "80%", height: "80%"}} alt="Joey Joey" title="Joey Joey" />
                 
                     <h1>Joey Joey</h1>
                    
