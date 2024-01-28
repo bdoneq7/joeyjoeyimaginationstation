@@ -13,7 +13,7 @@ const Navbar = () => {
             <div className='container'>
                 <div className='logo'>
                 
-                <img src={Logo} style={{ width: "80%", height: "80%"}} alt="Joey Joey" title="Joey Joey" />
+                <img src={Logo} style={{ width: "20%", height: "20%"}} alt="Joey Joey" title="Joey Joey" />
                 
                     <h1>Joey Joey</h1>
                    
